@@ -1,0 +1,15 @@
+# Eclipse Core
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Eclipse Core
+.project
+
+# Eclipse Settings
+.settings/
+
+# Target Directory ausschliesen
+target/
+
+# VS Code Settings
+.vscode/
