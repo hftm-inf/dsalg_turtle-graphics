@@ -47,7 +47,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/hftm-inf/turtle-graphics</url>
+			<url>https://maven.pkg.github.com/hftm-inf/dsalg_turtle-graphics</url>
 		</repository>
 	</distributionManagement>
 
