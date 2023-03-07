@@ -47,6 +47,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
+			<!-- Must match arctifact-id ! -->
 			<url>https://maven.pkg.github.com/hftm-inf/dsalg_turtle-graphics</url>
 		</repository>
 	</distributionManagement>
