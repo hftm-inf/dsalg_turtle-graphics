@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ch.hftm.dsalg</groupId>
 	<artifactId>dsalg_turtle-graphics</artifactId>
-	<version>0.2</version>
+	<version>0.3</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

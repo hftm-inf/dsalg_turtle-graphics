@@ -16,6 +16,7 @@ jobs:
           distribution: 'adopt'
           cache: 'maven'
       - name: Publish package
-        run: mvn --batch-mode deploy
+        # Temporary(?) Workaround for Maven 3.9.0 and GitHub Packages: -Dmaven.resolver.transport=wagon
+        run: mvn -Dmaven.resolver.transport=wagon --batch-mode deploy
         env:
           GITHUB_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
